@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: antiquewhite;
+  font-family: "Muli", sans-serif;
+}
+h1 {
+  font-size: 44px;
+  padding-bottom: 0.4em;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 34px;
+  padding-top: 0.6em;
+  padding-bottom: 0.4em;
+  text-transform: uppercase;
+}
+p {
+  font-size: 18px;
+}
+.content {
+  background: url(../images/nel.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+.bio {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(0, 0, 0, 0.7);
+  text-align: justify;
+  color: rgb(255, 255, 255);
+}
+.bio h1 {
+  text-align: center;
+  padding-top: 2em;
+  font-weight: 800px;
+  font-family: "BioRhyme", serif;
+}
+.bio p {
+  padding-top: 2em;
+  padding-left: 10em;
+  padding-right: 10em;
+  font-size: 26px;
+}
+.history {
+  margin: 2em 3em 2em 3em;
+  text-align: justify;
+  line-height: 2em;
+}
+.history h1,
+h2 {
+  text-align: center;
+}
+.history img {
+  height: 170px;
+  display: inline-block;
+  margin: 3px 12px 3px 0;
+}
+.mand {
+  float: left;
+}
+.mand2 {
+  float: right;
+}
+.speech {
+  font-weight: 800;
+  padding-left: 15em;
+  padding-right: 2em;
+}
